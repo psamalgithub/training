@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building.................'
                 sh 'cd /tmp'
                 sh 'pwd'
                 sh 'touch temp.txt'
