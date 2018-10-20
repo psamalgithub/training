@@ -8,7 +8,7 @@ pipeline {
                 sh 'cd /tmp'
                 sh 'pwd'
                 sh 'touch temp.txt'
-                sh 'ls -lrt'
+                sh 'ls -lrt | wc'
                 sh 'cp temp.txt temp1.txt'
                 sh 'ls -lrt'
             }
